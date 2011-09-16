@@ -3,3 +3,5 @@
 If (tkd20matar) {
 	system 'sudo -i killall';
 }
+
+¬¬
