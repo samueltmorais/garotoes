@@ -1,1 +1,5 @@
 É radical!
+if ( saci = branco)
+	{
+	 system.out.printl(" FATAL ERROR: THIS IS NOT TRUE");
+	}
