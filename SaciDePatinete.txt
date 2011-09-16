@@ -1,1 +1,5 @@
 É radical!
+
+If (tkd20matar) {
+	system 'sudo -i killall';
+}
