@@ -1,0 +1,149 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p{
+    margin: 0px;
+    padding: 5px;
+    font: normal 140% "Lucida Sans Unicode",sans-serif;
+    text-align:justify;
+}
+
+h2{
+    margin: 20px;
+    padding:5px;
+    text-align:center;
+}
+
+.negrito{
+    font: bold 140% "Lucida Sans Unicode",sans-serif;
+    text-align:center;
+}
+
+/*Inicio da pagina*/
+body {
+	background: #000000 repeat-y center top;
+    color: #333;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+}
+
+/* topo */
+.top {
+	background: #545454;
+	font: 20.4px Verdana,sans-serif;
+	height: 60px;
+	margin: 0 auto;
+	width: 100%;
+	text-align:center;
+}
+.top a {
+	color: #FFF;
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+	width: 100%;
+}
+.top span {padding-left: 24px;}
+.top a:hover {
+	background: #C0C0C0;
+	color: #FFF;
+}
+
+.fonte_menu{
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+.centro{
+        text-align:center;
+        margin:20 0 0 0;
+		background:#fff;
+}
+
+.center{
+        text-align:center;
+}
+
+.espac_form{
+        margin:15 0 0 0;
+	}
+.form{
+        text-align:center;
+        margin:20 0 20 0;
+   		font: normal 140% "Lucida Sans Unicode",sans-serif;
+		list-style: none;
+}
+
+/*CLASSES PARA BOTOES*/
+.botao{
+       background-color:#567300;
+       color:#FFFFFF;
+}
+
+/*Divs da estrutura*/
+
+#pagina_principal{
+	position:absolute;
+	left:25%;
+	width:50%;
+	background-color:#C0C0C0;
+	border-bottom-width:1px;
+	border-top-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+}
+
+#conteudo{
+          position:relative;
+          left:0px;
+          width:100%;
+          background-color:transparent;
+}
+
+/* Menu */
+#menu {
+	position:relative;
+	height: 30px;
+	background-color:transparent;
+    width:100%;
+    }
+
+#menu ul {
+	list-style: none;
+	line-height: normal;
+	display:inline-table;	
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a{
+	background-color:#567300;
+	display: block;
+	width: 80px;
+	height: 40px;
+	padding: 3px 0 0 0;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-size: 115%;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background-color:#688B00;
+	color:#FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	text-decoration:underline;
+}
+
+#menu .active a {
+	background: #000000;
+	color: #FFFFFF;
+}
